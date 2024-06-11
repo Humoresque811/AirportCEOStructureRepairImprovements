@@ -11,7 +11,7 @@ public class AirportCEOStructureRepairImprovements : BaseUnityPlugin
 {
     public static AirportCEOStructureRepairImprovements Instance { get; private set; }
     internal static Harmony Harmony { get; private set; }
-    internal static ManualLogSource TweaksLogger { get; private set; }
+    internal static ManualLogSource SRILogger { get; private set; }
     internal static ConfigFile ConfigReference {  get; private set; }
 
     private void Awake()
@@ -21,7 +21,7 @@ public class AirportCEOStructureRepairImprovements : BaseUnityPlugin
         Harmony.PatchAll(); 
 
         Instance = this;
-        TweaksLogger = Logger;
+        SRILogger = Logger;
         ConfigReference = Config;
 
         // Config

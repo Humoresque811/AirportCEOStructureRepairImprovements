@@ -4,7 +4,7 @@
     <TargetFramework>net4.6</TargetFramework>
     <AssemblyName>AirportCEOStructureRepairImprovements</AssemblyName>
     <Description>Improving structure repair in ACEO</Description>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
